@@ -4,7 +4,7 @@ Bem-vindo ao projeto Vai Na Pechincha Ecommerce! Este projeto foi criado com `cr
 
 ## 🖖 Veja a demo do projeto:
 
-      https://vercel.com/guilherme-klemanns-projects/vai-na-pechincha-ecommerce
+https://vai-na-pechincha-ecommerce.vercel.app/
 
 ## 🚀 Guia de Instalação
 
