@@ -1,51 +1,82 @@
+# 📝 Projeto Vai Na Pechincha Ecommerce
 
-## Objetivo
-Construir uma aplicação web em ReactJS que tenha o comportamento de um e-commerce.
+Bem-vindo ao projeto Vai Na Pechincha Ecommerce! Este projeto foi criado com `create-react-app` e utiliza o React Router Dom e FontAwesome para ícones.
 
-## Como começar
-Dar um fork no projeto, clonar o repositório em sua máquina local e criar um branch novo para o seu código.
+## 🖖 Veja a demo do projeto:
 
+      https://vercel.com/guilherme-klemanns-projects/vai-na-pechincha-ecommerce
 
-## Regras de negócio
-•	Ao acessar a home, trazer a listagem de produtos vinda da API de referência.  
+## 🚀 Guia de Instalação
 
-•	Ao digitar no campo de busca, deve-se trazer somente os resultados digitados.  
+### 📋 Pré-requisitos
 
-•	Ao clicar no botão "Adicionar ao carrinho", deve-se inserir o produto ao carrinho de compras.  
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-•	No carrinho de compras, pode-se remover os produtos.  
+- **Node.js** (versão recomendada: 14.x ou superior)
+- **npm** (gerenciador de pacotes do Node.js)
 
-•	No carrinho de compras, deve-se informar o total da compra.
+### 🔧 Instalação do Projeto
 
+1. **Clone o repositório:**
 
-## Referências
-•	API de produtos: https://62d742f351e6e8f06f1a83da.mockapi.io/api/produtos
+   ```sh
+   git clone https://github.com/gui-script/hiring-front-end.git
+   cd hiring-front-end
+   ```
 
+2. **Instale as dependências:**
 
-## Observações
-1. Não é necessário se preocupar com CORS ou implementar um backend para fazer as requisições. A API de produtos permite chamadas diretas do navegador.
+   ```sh
+   npm install
+   ```
 
-2. Design de livre escolha.
+3. **Instale o React Router Dom:**
 
+   ```sh
+   npm install react-router-dom
+   ```
 
-## Requisitos Técnicos para a entrega do teste
+4. **Instale o FontAwesome:**
 
-•	Pode utilizar qualquer library de CSS e CSS-in-JS. (recomendamos Material UI, Bootstrap ou Styled Components. Pode fazer com CSS clássico também)
+   ```sh
+   npm install @fortawesome/react-fontawesome
+   npm install @fortawesome/free-solid-svg-icons
+   ```
 
-•	O projeto deve ter uma documentação em readme ensinando a: 
-1. instalar o projeto na máquina (engines, versão de node, qual gerenciador de pacote usar)
-2. instalar as dependências do projeto
-3. rodar o ambiente de desenvolvimento
-4. rodar a build de deploy da aplicação.
+### 🏃‍♂️ Rodando o Ambiente de Desenvolvimento
 
-•	Pode utilizar tanto o Axios quanto ou Fetch para requisições.
+Para iniciar o ambiente de desenvolvimento, execute o seguinte comando:
 
-•	Hospedar o projeto em um servidor (Heroku, Vercel, Netlify)
+```sh
+npm start
+```
 
-## Diferenciais técnicos
+O projeto será aberto automaticamente no seu navegador padrão em `http://localhost:3000`.
 
-•	Utilização de typescript
+### 🛠️ Rodando a Build para Deploy
 
-•	Bom uso de context api ou outro gerenciamento de estados
+Para criar uma build de produção da aplicação, utilize o comando:
 
-Boa sorte!
+```sh
+npm run build
+```
+
+Os arquivos otimizados para deploy serão gerados na pasta `build`.
+
+## 📂 Estrutura do Projeto
+
+Uma breve descrição da estrutura de diretórios e arquivos principais:
+
+```
+hiring-front-end/
+├── public/             # Arquivos públicos
+├── src/                # Código fonte da aplicação
+│   ├── components/     # Componentes React
+│   ├── App.js          # Componente principal da aplicação
+│   └── index.js        # Ponto de entrada da aplicação
+├── .gitignore          # Arquivos a serem ignorados pelo Git
+├── package.json        # Dependências e scripts npm
+└── README.md           # Documentação do projeto
+```
+
+Qualquer dúvida, sinta-se à vontade para entrar em contato! 😄
